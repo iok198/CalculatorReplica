@@ -14,6 +14,7 @@
 		6A9DDE742A7362D200CE18C8 /* CalculatorReplicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9DDE732A7362D200CE18C8 /* CalculatorReplicaTests.swift */; };
 		6A9DDE7E2A7362D200CE18C8 /* CalculatorReplicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9DDE7D2A7362D200CE18C8 /* CalculatorReplicaUITests.swift */; };
 		6A9DDE802A7362D200CE18C8 /* CalculatorReplicaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9DDE7F2A7362D200CE18C8 /* CalculatorReplicaUITestsLaunchTests.swift */; };
+		6A9DDE8D2A747A8E00CE18C8 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9DDE8C2A747A8E00CE18C8 /* CalculatorViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		6A9DDE792A7362D200CE18C8 /* CalculatorReplicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorReplicaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9DDE7D2A7362D200CE18C8 /* CalculatorReplicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorReplicaUITests.swift; sourceTree = "<group>"; };
 		6A9DDE7F2A7362D200CE18C8 /* CalculatorReplicaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorReplicaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6A9DDE8C2A747A8E00CE18C8 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				6A9DDE652A7362D200CE18C8 /* Assets.xcassets */,
 				6A9DDE672A7362D200CE18C8 /* CalculatorReplica.entitlements */,
 				6A9DDE682A7362D200CE18C8 /* Preview Content */,
+				6A9DDE8C2A747A8E00CE18C8 /* CalculatorViewModel.swift */,
 			);
 			path = CalculatorReplica;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A9DDE642A7362D100CE18C8 /* ContentView.swift in Sources */,
+				6A9DDE8D2A747A8E00CE18C8 /* CalculatorViewModel.swift in Sources */,
 				6A9DDE622A7362D100CE18C8 /* CalculatorReplicaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,10 +446,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.isaac.CalculatorReplica;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
@@ -480,10 +487,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.isaac.CalculatorReplica;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};
