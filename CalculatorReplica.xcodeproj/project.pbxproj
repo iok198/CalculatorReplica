@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A7C923D2AA984A300659B69 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6A9DDE5E2A7362D100CE18C8 /* CalculatorReplica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorReplica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9DDE612A7362D100CE18C8 /* CalculatorReplicaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorReplicaApp.swift; sourceTree = "<group>"; };
 		6A9DDE632A7362D100CE18C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		6A9DDE552A7362D100CE18C8 = {
 			isa = PBXGroup;
 			children = (
+				6A7C923D2AA984A300659B69 /* README.md */,
 				6A9DDE602A7362D100CE18C8 /* CalculatorReplica */,
 				6A9DDE722A7362D200CE18C8 /* CalculatorReplicaTests */,
 				6A9DDE7C2A7362D200CE18C8 /* CalculatorReplicaUITests */,
